@@ -1,29 +1,11 @@
 <!DOCTYPE html>
-<html>
-<body>
-
+<html lang="en">
 <head>
-    <meta name="description" content="CSE-related Opportunities at UCSD">
-    <meta name="keywords" content="Research, Program, Opportunities">
-    <meta name="author" content="Yuru Zhou">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <canvas id="myCanvas"></canvas>
-
     <title>CSE-related Opportunities @ UCSD</title>
-
-    <style>
-        aside {
-          width: 25%;
-          padding-left: 15px;
-          margin-left: 15px;
-          left: 0px;
-          float: right;
-          font-style: italic;
-          font-size:large;
-          background-color: lightgray;
-        }
-    </style>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+    
+    <canvas id="myCanvas"></canvas>
 
     <script>
         var c = document.getElementById("myCanvas");
@@ -32,13 +14,12 @@
         ctx.fillRect(0, 0, 1000000, 50);
     </script>
 
-</head>
+<body>
 
 <header>
     <svg>
         <circle cx="50" cy="50" r="40"
         stroke="blue" stroke-width="2" fill="purple" />
-    Sorry, your browser does not support inline SVG.
     </svg>
 
     <nav>
@@ -63,16 +44,19 @@
             <h2>Research</h2>
             <ul>
                 <li><a href="https://real-app.ucsd.edu/opportunities" target="_blank"><strong>REAL Portal:</strong></a></li>
+            </ul>
                 <p> - The REAL Portal offers <span style="color:red;font-weight:bold">research</span>, <span style="color:red;font-weight:bold">Internship</span>, <span style="color:red;font-weight:bold">international</span>, <span style="color:red;font-weight:bold">service learning</span>, <span style="color:red;font-weight:bold">entrepreneurial</span>, <span style="color:red;font-weight:bold">leadership</span>, and other co-curricular opportunities.</p>
+            <ul>
                 <li><a href="https://cse.ucsd.edu/faculty-research" target="_blank">CSE Department Research with Professors:</a></li>
+            </ul>
                 <p> - Students have the opportunity to interact with faculty as course <i>teaching assistants</i>, <i>tutors and readers</i>, as <i>graduate and undergraduate research assistants</i> and through faculty mentoring.</p>
+            <ul>
                 <li><a href="https://jacobsschool.ucsd.edu/research" target="_blank">Jacab School of Engineering/</a>
                     <a href="https://psychology.ucsd.edu/research-areas/index.html" target="_blank">Psychology Department/</a>
                     <a href="https://cogsci.ucsd.edu/research/index.html" target="_blank">Cognitive Science Department:</a>
                 </li>
+            </ul> 
                 <p>- Other departments are constantly seeking people who have knowledge in coding.</p>
-
-            </ul>
         </div>
     </section>
 
@@ -80,9 +64,9 @@
         <div id = "program">
             <h2>Program</h2>
             <ol>
-                <div>
                     <li><a href = "https://ersp.eng.ucsd.edu/home" target="_blank">ESPR:</a></li>
-                    <iframe width="549" height="375" src="https://www.youtube.com/embed/D3bSsfRMNCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </ol>  
+                    <iframe width="549" height="375" src="https://www.youtube.com/embed/D3bSsfRMNCg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p> - The UCSD Computer Science and Engineering Early Research Scholars Program (CSE-ERSP) is a team-based research apprentice experience for <em>computer science and engineering majors in their second year of the program.</em> <br><br> Students work in teams of four, and each team is matched with an active research project in the department.  Students learn about research in computer science and then propose and carry out an independent research project over the course of an academic year.</p>
                     <details>
                         <summary>Eligibility Requirements</summary>
@@ -93,13 +77,17 @@
                         </ul>
                         
                     </details>
-                </div>
+            
+            <ol>
                 <li><a href="https://aip.ucsd.edu/" target="_blank">Academic Internship Program:</a></li>
+            </ol>
                 <figure>
-                    <img src = "https://aip.ucsd.edu/_homepage-internals/homepage-sample/banner-home.png" width="100%">
+                    <img src = "https://aip.ucsd.edu/_homepage-internals/homepage-sample/banner-home.png" width="1000">
                     <figcaption>- The Academic Internship Program allows students to <b>integrate academic theory</b> and <b>real world</b> practice, engage in research that explores the relationship between the two, and gain hands-on experience in professional settings. Connecting students with opportunities to explore careers, engage in the community, and enrich their education through experiential learning.</figcaption> 
                 </figure>
+            <ol>
                 <li><a href = "https://hpc-students.sdsc.edu/hpc_training" target="_blank">HPC Student Program</a></li>
+            </ol>
                 <picture>
                     <source media="(min-width:650px)" srcset="https://na-admin.eventscloud.com/file_uploads/474d51768a30b71a40f6b1d032e71491_HPCUserTrainingSeries_header1.png">
                     <img src="https://na-admisn.eventscloud.com/file_uploads/474d51768a30b71a40f6b1d032e71491_HPCUserTrainingSeries_header1.png" alt="Flowers" style="width:70%;">
@@ -108,7 +96,7 @@
                 <aside>
                     <p> <code>- Program offered by SDSC every winter quarter mean to equip students who are interested in HPC with essential skills.  We cover different topics ranging from basic skills like running jobs on a supercomputer to advanced topics like accelerator and GPU Programming.</code> </p>
                 </aside>
-            </ol>
+
 
             <video width="320" height="240" controls>
                 <source src="https://youtu.be/uNZyg6X_t3s" type="video/mp4">
@@ -121,7 +109,7 @@
     <table>
         <caption>2021 scheduled training</caption>
         <colgroup>
-            <col span="2" style="background-color:red">
+            <col span="1" style="background-color:red">
             <col style="background-color:yellow">
           </colgroup>
         <tr>
@@ -132,27 +120,23 @@
           <td>January 22 to March 12, 2021 (8 sessions)</td>
           <td>April 9 to May 7, 2021 (6 sessoins)</td>
         </tr>
-
     </table>
 
     <section>
         <div id = "other">
             <h2>Other</h2>
-            <ul>
-                <li><a href = "https://ersp.eng.ucsd.edu/home" target="_blank">Jacaob School of Engineering Co-op:</a></li>
-                <p>- The Cooperative Education (Co-op) Program is an immersive work experience in which students are employed full-time by a company for up to six months, which includes summer and one academic quarter, to supplement education with real-world experiences.</p>
-            </ul>
+                <a href = "https://ersp.eng.ucsd.edu/home" target="_blank">Jacaob School of Engineering Co-op:</a>
+            <p>- The Cooperative Education (Co-op) Program is an immersive work experience in which students are employed full-time by a company for up to six months, which includes summer and one academic quarter, to supplement education with real-world experiences.</p>
         </div>
     </section>
 
     <section>
-        <div id = "other">
             <form>
                 <fieldset>
                     <legend><h2>Subscribe</h2></legend>
-                    <label for="fname">First name:</label><br>
+                    <label >First name:</label><br>
                     <input type="text"><br>
-                    <label for="lname">Last name:</label><br>
+                    <label >Last name:</label><br>
                     <input type="text"><br><br>
                     <label >Email Address:</label><br>
                     <input type="email"><br><br>
@@ -162,12 +146,12 @@
                     <input type="number"><br><br>
                     <label >Date of Birth:</label><br>
                     <input type="date"><br><br>
-                    <label >Profile Picture:</label><br>
-                    <input type="image"><br><br>
+                    <label >Enter Week:</label><br>
+                    <input type="week"><br><br>
                     <label >Phone Number:</label><br>
                     <input type="tel"><br><br>
-                    <label for="file">Resume</label><br>
-                    <input type="file"name="fname"><br>
+                    <label >Resume</label><br>
+                    <input type="file"><br>
                     <label >Current Time:</label><br>
                     <input type="time"><br><br>
 
@@ -180,7 +164,7 @@
                             <optgroup label="BIOLOGICAL SCIENCES">
                             <option value="biology">Biology</option>
                             <option value="chemistry">Chemistry</option>
-                            </optgroup><br><br>
+                            </optgroup>
                         </select><br>
                         <label for="browser">Choose your browser from the list:</label>
                             <input list="browsers" name="browser" id="browser">
@@ -198,7 +182,6 @@
                     <input type="submit" value="Submit">
                 </fieldset>
             </form> 
-        </div>
     </section>
 
     <footer>
