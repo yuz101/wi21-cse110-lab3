@@ -60,3 +60,29 @@ p[target = "esrp"]{
     vertical-align: baseline;
     padding-right: 10px;
 }
+.container{
+    display: flex;
+    align-items:left;
+}
+h2,h3{
+    color:#6B717E;
+    margin: 10px 0;
+}
+div img{
+    height: 300px;
+    width: 800px;
+}
+p ~ ol {
+    background: yellow;
+}
+div + img{
+    min-width: 70%;
+}
+.hpc{
+    display: grid;
+    grid-template-rows: auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
