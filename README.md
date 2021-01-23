@@ -16,6 +16,7 @@ Had trouble with putting element in vertical order
 **Comfort Level — How close are we to hitting our sprint goals?**
 
 4/10
+
 --
 
 Tips:
