@@ -86,3 +86,20 @@ div + img{
     grid-row-start: 2;
     grid-row-end: 3;
 }
+video{
+    height: 300px;
+    width: 35%;
+}
+.schedule{
+    display: flex;
+    flex-direction: column;
+}
+iframe.schedule{
+    position: relative;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: lightgreen;
+    }
+}
