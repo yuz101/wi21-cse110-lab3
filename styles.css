@@ -73,18 +73,12 @@ div img{
     width: 800px;
 }
 p ~ ol {
+    display: block;
     background: yellow;
 }
 div + img{
+    display: inline;
     min-width: 70%;
-}
-.hpc{
-    display: grid;
-    grid-template-rows: auto;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
 video{
     height: 300px;
@@ -102,4 +96,17 @@ iframe.schedule{
     body {
         background-color: lightgreen;
     }
+}
+label {
+    grid-column: 1 / 2;
+}
+ 
+input,button {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+form{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 15px;
 }
