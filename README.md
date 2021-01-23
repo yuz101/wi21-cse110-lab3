@@ -2,18 +2,20 @@
 https://yuz101.github.io/wi21-cse110-lab3/
 ## Yuru Zhou
 **What did you do yesterday?**
+
 Review for CSE101
+
 **What will you do today?**
+
 Take CSE101 midterm, finish Math183 homeworks, and finish CSE110 labs
+
 **Where are you blocked?**
+
 Had trouble with putting element in vertical order
+
 **Comfort Level — How close are we to hitting our sprint goals?**
+
 4/10
-Name
-What did you do yesterday?
-What will you do today?
-Where are you blocked?
-Comfort Level — How close are we to hitting our sprint goals?
 --
 
 Tips:
