@@ -4,33 +4,26 @@
     <title>CSE-related Opportunities @ UCSD</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="styles.css">
-    
-    <script>
-        var c = document.getElementById("myCanvas");
-        var ctx = c.getContext("2d");
-        ctx.fillStyle = "black";
-        ctx.fillRect(0, 0, 1000000, 50);
-    </script>
+    <style>
+        /* Set text color to blue */
+        p {
+          color: blue;
+        } 
+        </style>
 </head>
 
 <body>
 
 <header>
-    <svg>
-        <circle cx="50" cy="50" r="40"
-        stroke="blue" stroke-width="2" fill="purple" />
-    </svg>
-
     <nav>
-        <a href="home.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="contact.html">Contact</a>
+        <a href="home.html" class="nav-link">Home</a> |
+        <a href="about.html" class="nav-link">About</a> |
+        <a href="contact.html" class="nav-link">Contact</a>
     </nav>
     <h1>CSE-related Opportunities @ UCSD</h1>
     <!-- <a href="#research"><h2>Research</h2></a>
     <a href="#program"><h2>Program</h2></a>
     <a href="#other"><h2>Other</h2></a> -->
-    <pre>This website introduces various different cse-related opportunities at UCSD which help student to better utilize resources on campus. </pre>
     <template>
         <h2>More opportunities at student orgs!</h2>
     </template>
@@ -40,7 +33,6 @@
 <main>
     <section>
         <div id = "research">
-            <canvas id="myCanvas"></canvas>
             <h2>Research</h2>
             <ul>
                 <li><a href="https://real-app.ucsd.edu/opportunities" target="_blank"><strong>REAL Portal:</strong></a></li>
@@ -63,49 +55,52 @@
     <section>
         <div id = "program">
             <h2>Program</h2>
+            <div class = "container">
             <ol>
-                    <li><a href = "https://ersp.eng.ucsd.edu/home" target="_blank">ESPR:</a></li>
-            </ol>  
-                    <iframe width="549" height="375" src="https://www.youtube.com/embed/D3bSsfRMNCg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p> - The UCSD Computer Science and Engineering Early Research Scholars Program (CSE-ERSP) is a team-based research apprentice experience for <em>computer science and engineering majors in their second year of the program.</em> <br><br> Students work in teams of four, and each team is matched with an active research project in the department.  Students learn about research in computer science and then propose and carry out an independent research project over the course of an academic year.</p>
-                    <details>
-                        <summary>Eligibility Requirements</summary>
-                        <ul>
-                            <li> Be in your first year at UCSD at the time of application (i.e. spring 2019 for the 2019/20 cohort).  Note this does not imply freshman standing, simply being in your first year at the university, regardless of whether you entered from high school or transferred from another college or university.</li>
-                            <li> Not have completed any courses in the CSE upper division at the end of the spring quarter that precedes the program year (i.e. spring 2019 for the 2019/20 cohort).</li>
-                            <li> Be in a CSE major in the CSE department.</li>   
-                        </ul>
-                        
-                    </details>
-            
+                    <li><a href = "https://ersp.eng.ucsd.edu/home" target="_blank"><h3>ESPR:</h3></a></li>
+            </ol>
+                    <p target = "esrp"> - The UCSD Computer Science and Engineering Early Research Scholars Program (CSE-ERSP) is a team-based research apprentice experience for <em>computer science and engineering majors in their second year of the program.</em> <br><br> Students work in teams of four, and each team is matched with an active research project in the department.  Students learn about research in computer science and then propose and carry out an independent research project over the course of an academic year.</p>  
+                    <iframe width="549" height="375"  frameborder="0" src="https://www.youtube.com/embed/D3bSsfRMNCg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <details>
+                <summary>Eligibility Requirements</summary>
+                <ul>
+                    <li> Be in your first year at UCSD at the time of application (i.e. spring 2019 for the 2019/20 cohort).  Note this does not imply freshman standing, simply being in your first year at the university, regardless of whether you entered from high school or transferred from another college or university.</li>
+                    <li> Not have completed any courses in the CSE upper division at the end of the spring quarter that precedes the program year (i.e. spring 2019 for the 2019/20 cohort).</li>
+                    <li> Be in a CSE major in the CSE department.</li>   
+                </ul>
+                
+            </details>
             <ol>
                 <li><a href="https://aip.ucsd.edu/" target="_blank">Academic Internship Program:</a></li>
             </ol>
+            <div class = "aip">
                 <figure>
                     <img src = "https://aip.ucsd.edu/_homepage-internals/homepage-sample/banner-home.png" width="1000">
                     <figcaption>- The Academic Internship Program allows students to <b>integrate academic theory</b> and <b>real world</b> practice, engage in research that explores the relationship between the two, and gain hands-on experience in professional settings. Connecting students with opportunities to explore careers, engage in the community, and enrich their education through experiential learning.</figcaption> 
                 </figure>
-            <ol>
-                <li><a href = "https://hpc-students.sdsc.edu/hpc_training" target="_blank">HPC Student Program</a></li>
-            </ol>
-                <picture>
-                    <source media="(min-width:650px)" srcset="https://na-admin.eventscloud.com/file_uploads/474d51768a30b71a40f6b1d032e71491_HPCUserTrainingSeries_header1.png">
-                    <img src="https://na-admisn.eventscloud.com/file_uploads/474d51768a30b71a40f6b1d032e71491_HPCUserTrainingSeries_header1.png" alt="Flowers" style="width:70%;">
-                </picture>
+            </div>
 
-                <aside>
-                    <p> <code>- Program offered by SDSC every winter quarter mean to equip students who are interested in HPC with essential skills.  We cover different topics ranging from basic skills like running jobs on a supercomputer to advanced topics like accelerator and GPU Programming.</code> </p>
-                </aside>
-
-
-            <video width="320" height="240" controls>
-                <source src="https://youtu.be/uNZyg6X_t3s" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-              Your browser does not support the video tag.
-            </video>
+            <div class = "hpc">
+                <ol>
+                    <li><a href = "https://hpc-students.sdsc.edu/hpc_training" target="_blank">HPC Student Program</a></li>
+                </ol>
+                    <picture>
+                        <source media="(min-width:650px)" srcset="https://na-admin.eventscloud.com/file_uploads/474d51768a30b71a40f6b1d032e71491_HPCUserTrainingSeries_header1.png">
+                        <img src="https://na-admisn.eventscloud.com/file_uploads/474d51768a30b71a40f6b1d032e71491_HPCUserTrainingSeries_header1.png" alt="Flowers">
+                    </picture>
+                    <video width="320" height="240" controls>
+                        <source src="https://youtu.be/uNZyg6X_t3s" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video>
+                    <aside>
+                        <p> <code>- Program offered by SDSC every winter quarter mean to equip students who are interested in HPC with essential skills.  We cover different topics ranging from basic skills like running jobs on a supercomputer to advanced topics like accelerator and GPU Programming.</code> </p>
+                    </aside>
+            </div>
         </div>
     </section>
-
+    <div>
     <table>
         <caption>2021 scheduled training</caption>
         <colgroup>
@@ -121,7 +116,8 @@
           <td>April 9 to May 7, 2021 (6 sessoins)</td>
         </tr>
     </table>
-
+    <iframe class = "schedule" width="549" height="375"  frameborder="0" src="https://na.eventscloud.com/website/21055/2021-training-schedule/" allowfullscreen></iframe>
+    </div>
     <section>
         <div id = "other">
             <h2>Other</h2>
@@ -131,6 +127,7 @@
     </section>
 
     <section>
+        <div class = "misc">
             <form>
                 <fieldset>
                     <legend><h2>Subscribe</h2></legend>
@@ -182,6 +179,7 @@
                     <input type="submit" value="Submit">
                 </fieldset>
             </form> 
+        </div>
     </section>
 
     <footer>
