@@ -50,3 +50,13 @@ iframe{
     float: right;
     min-width: 50%;
 }
+p[target = "esrp"]{
+    text-align: left;
+    border-style: dotted;
+    border-color: #001F54;
+    border-width: 3px;
+    border-radius: 5px;
+    margin: 25px;
+    vertical-align: baseline;
+    padding-right: 10px;
+}
